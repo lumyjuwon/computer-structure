@@ -1,0 +1,8 @@
+# Python 캐시
+__pycache__/
+*.pyc
+
+# 실행·빌드 중 생기는 임시 파일
+data.out
+riscv-sim/report/report.html
+study/*.html

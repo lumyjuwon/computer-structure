@@ -1,0 +1,6 @@
+# 테스트 입출력은 바이트 단위로 비교하므로 Git 의 줄바꿈 변환(CRLF)을 금지한다.
+*.bin binary
+*.out binary
+*.pdf binary
+tests/cases/**/expected_stdout.txt -text
+tests/cases/**/expected_exit_code.txt -text
